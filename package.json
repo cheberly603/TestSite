@@ -1,0 +1,43 @@
+{
+  "name": "testsite",
+  "version": "1.0.0",
+  "description": "a test portfolio website",
+  "source": "index.html",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack build --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheberly603/TestSite.git"
+  },
+  "author": "Christopher Heberly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheberly603/TestSite/issues"
+  },
+  "homepage": "https://github.com/cheberly603/TestSite#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "glightbox": "^3.3.0",
+    "i": "^0.3.7",
+    "lightbox": "^0.5.0",
+    "package": "^1.0.1",
+    "swiper": "^11.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "css-loader": "^7.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.75.0",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
