@@ -1,6 +1,12 @@
+
+
 'use strict'
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+
+new BundleAnalyzerPlugin()
 
 const path = require('path')
+
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
@@ -17,5 +23,14 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: './src/index.html' })
-  ]
-}
+  ],
+
+  module: {
+    rules: [
+      {
+        test: /\.scss$/,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+    ],
+  },
+};

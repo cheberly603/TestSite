@@ -24,9 +24,11 @@
     "bootstrap-icons": "^1.11.3",
     "glightbox": "^3.3.0",
     "i": "^0.3.7",
+    "isotope-layout": "^3.0.6",
     "lightbox": "^0.5.0",
     "package": "^1.0.1",
-    "swiper": "^11.1.1"
+    "swiper": "^11.1.1",
+    "typed.js": "^2.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
@@ -37,6 +39,7 @@
     "sass-loader": "^14.2.1",
     "style-loader": "^4.0.0",
     "webpack": "^5.91.0",
+    "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
   }

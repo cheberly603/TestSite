@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700&display=swap');
-@import 'swiper/css';
-@import url('/assets/vendorCode/bootstrap-5.3.3-dist/css');
-@import url('/assets/vendorCode/icons-main/icons-main/font/bootstrap-icons.css');
-@import "/src/css/style.css";
+@import '/src/assets/vendorCode/swiper/swiper-bundle.min.css';
+@import url('/src/assets/vendorCode/bootstrap-5.3.3-dist/css/bootstrap-grid.css');
+@import url('/src/assets/vendorCode/icons-main/icons-main/font/bootstrap-icons.css');
 
 
+
+$color-primary: #3046C5;
+$color-secondary: #5637dd;
+$color-pale: #CEC8FF;
+$color-mid: #901CAD;
+$color-dark: #60106b;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+// your existing styles...
 body {
     background: #4e4242;
     color: #251b1b;
@@ -42,7 +53,7 @@ body {
   }
   
   a {
-    color: #e11919;
+    color: #16408d;
     text-decoration: none !important;
     transition: all 0.5s ease-in-out 0s;
   }
@@ -414,7 +425,7 @@ body {
 
 
   #hero {
-    background: url('/assets/img/chrisinsun.jpg');
+    background: url('/src/assets/img/chrisinsun.jpg');
     height: 100vh;
     width: 100%;
   }
@@ -683,4 +694,37 @@ body {
 }
   .carousel {
       border: solid  $color-secondary;
+  }
+
+  #carouselExampleIndicators {
+
+    padding: 4rem;
+  }
+  
+  #carousel-row{
+    background: rgba(56, 52, 52, 0.5);
+    border-radius: 10px;
+  
+  }
+  
+  #carousel-caption {
+    padding-top: 8em;
+    color: blue;
+  }
+  
+  #travel-content{
+    padding-left: 5em;
+    padding-top: 2em;
+    height: 20vh;
+  }
+  #travel-content h1{
+    padding-bottom: 0;
+  }
+  #travel-content p{
+    padding-top: 0;
+  }
+  
+  #travel-info {
+    height: 50vh;
+    
   }
